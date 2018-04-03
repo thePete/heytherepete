@@ -396,7 +396,8 @@ a.anim:hover {
 
 .appicon-col {
   position: absolute;
-  z-index:  999; left: 34%; top: -40%;
+  z-index:  999;
+  top: -40%;
 }
 
 .appicon-size {
@@ -475,6 +476,9 @@ a.anim:hover {
     padding-top: 20px;
   }
 
+  .appicon-size {
+    max-width: 30%;
+  }
 
 }
 
@@ -569,10 +573,6 @@ a.anim:hover {
     margin-top: 20%;
     padding-top: 20%;
     max-height: 230px;
-  }
-
-  .appicon-size {
-    max-width: 35%;
   }
 
 }
