@@ -482,7 +482,14 @@ a.anim:hover {
 
   .appcontainer {
     position: relative;
-    margin-top: 120px;
+    margin-top: 205px;
+  }
+
+  .appicon-col {
+    position: absolute;
+    z-index:  999;
+    left: 0;
+    top: -45%;
   }
 
 }
@@ -578,6 +585,22 @@ a.anim:hover {
     margin-top: 20%;
     padding-top: 20%;
     max-height: 230px;
+  }
+
+  .appcontainer {
+    position: relative;
+    margin-top: 120px;
+  }
+
+  .appicon-col {
+    position: absolute;
+    z-index:  999;
+    left: 0;
+    top: -50%;
+  }
+
+  .appicon-size {
+    max-width: 35%;
   }
 
 }
