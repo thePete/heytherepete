@@ -378,7 +378,6 @@ a.anim:hover {
 
 .appscreenrow {
   max-height: 400px;
-  overflow: hidden;
 }
 
 .ctrcol {
@@ -479,6 +478,11 @@ a.anim:hover {
 
   .appicon-size {
     max-width: 30%;
+  }
+
+  .appcontainer {
+    position: relative;
+    margin-top: 120px;
   }
 
 }
