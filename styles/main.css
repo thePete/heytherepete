@@ -397,6 +397,7 @@ a.anim:hover {
 .appicon-col {
   position: absolute;
   z-index:  999;
+  left: 0;
   top: -40%;
 }
 
