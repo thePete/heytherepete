@@ -466,6 +466,12 @@ a.anim:hover {
     list-style-type: circle;
     min-height: 165px;
   }
+
+  .appcontainer {
+    position: relative;
+    margin-top: 200px;
+  }
+  
 }
 
 
@@ -616,7 +622,7 @@ a.anim:hover {
 
   .appcontainer {
     position: relative;
-    margin-top: 120px;
+    margin-top: 100px;
   }
 
   .appicon-col {
@@ -654,6 +660,10 @@ a.anim:hover {
     list-style-type: circle;
     min-height: 150px;
     text-align: left;
+  }
+
+  .col-lg-6 {
+    margin-top:20px;
   }
 
 }
