@@ -139,7 +139,6 @@ ul {
   line-height: 1.5;
   list-style-type: circle;
   min-height: 186px;
-
 }
 
 .back-to-top {
@@ -434,7 +433,7 @@ a.anim:hover {
 
 
 
-/* ------ MEDIUM+ ------ */
+/* ------ MEDIUM+ ipad wide ------ */
 
 @media screen and (max-width: 1024px) {
   h1 {
@@ -453,10 +452,24 @@ a.anim:hover {
     margin-bottom: 5%;
     margin-top: 5%;
   }
+
+  ul {
+    font-size: 14px;
+    padding-left: 18px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #d8d8d8;
+    color: #5D5D5D;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    letter-spacing: -.25px;
+    line-height: 1.5;
+    list-style-type: circle;
+    min-height: 165px;
+  }
 }
 
 
-/* ------ MEDIUM - IPAD ------ */
+/* ------ MEDIUM - IPAD vert ------ */
 
 @media screen and (max-width: 768px) {
   h1 {
@@ -499,6 +512,7 @@ a.anim:hover {
   .resp-spacing {
     margin-bottom: 1.5rem;
   }
+
 
 }
 
@@ -626,6 +640,20 @@ a.anim:hover {
     border: 3px solid #52BEEC;
     border-radius: 60px;
     color: #52BEEC;
+  }
+
+  ul {
+    font-size: 14px;
+    padding: 0px 15px 15px;
+    border-bottom: 1px solid #d8d8d8;
+    color: #5D5D5D;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    letter-spacing: -.25px;
+    line-height: 1.5;
+    list-style-type: circle;
+    min-height: 150px;
+    text-align: left;
   }
 
 }
