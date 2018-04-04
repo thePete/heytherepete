@@ -420,6 +420,10 @@ a.anim:hover {
   display: block;
 }
 
+.resp-spacing {
+  margin-bottom: 1.5rem;
+}
+
 
 /* -------------------------- BOOTSTRAP EDITS ---------------------------- */
 
@@ -452,7 +456,7 @@ a.anim:hover {
 }
 
 
-/* ------ MEDIUM ------ */
+/* ------ MEDIUM - IPAD ------ */
 
 @media screen and (max-width: 768px) {
   h1 {
@@ -492,10 +496,14 @@ a.anim:hover {
     top: -45%;
   }
 
+  .resp-spacing {
+    margin-bottom: 1.5rem;
+  }
+
 }
 
 
-/* ------ SMALL ------ */
+/* ------ SMALL (PHONES) ------ */
 
 @media screen and (max-width: 375px) {
   h1 {
