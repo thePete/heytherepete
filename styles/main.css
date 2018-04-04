@@ -547,6 +547,11 @@ a.anim:hover {
     margin-top: 15%;
   }
 
+  .port-item {
+    border-bottom: 1px solid #C3C3C3;
+    margin: 50px 0px 80px;
+  }
+
   .proj-underline {
     margin: 0px;
   }
@@ -609,6 +614,18 @@ a.anim:hover {
 
   .appicon-size {
     max-width: 35%;
+  }
+
+  .back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    padding: 0px 15px;
+    background-color: #FFFFFF;
+    border: 3px solid #52BEEC;
+    border-radius: 60px;
+    color: #52BEEC;
   }
 
 }
