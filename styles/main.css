@@ -377,6 +377,7 @@ a.anim:hover {
 
 .appscreenrow {
   max-height: 400px;
+  overflow-y: hidden;
 }
 
 .ctrcol {
@@ -471,7 +472,7 @@ a.anim:hover {
     position: relative;
     margin-top: 200px;
   }
-  
+
 }
 
 
