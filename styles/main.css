@@ -122,11 +122,35 @@ a.btn {
   text-transform: uppercase;
 }
 
+a.btnnav {
+  background-color: #FFFFFF;
+  border: 3px solid #52BEEC;
+  border-radius: 60px;
+  color: #52BEEC;
+  padding: 20px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 100px 0px 250px;
+  cursor: pointer;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
 
 
 a.btn:hover {
   box-shadow: inset 0 0 0 5px #D6F3FF;
 }
+
+a.btnnav:hover {
+  box-shadow: inset 0 0 0 5px #D6F3FF;
+}
+
 
 ul {
   padding-left: 18px;
@@ -187,6 +211,10 @@ a.anim:hover {
 
 ::selection {
   background: yellow;
+}
+
+.cont-proto {
+  margin-top: 350px;
 }
 
 .soc-row {
@@ -454,6 +482,7 @@ a.anim:hover {
     margin-top: 5%;
   }
 
+
   ul {
     font-size: 14px;
     padding-left: 18px;
@@ -471,6 +500,10 @@ a.anim:hover {
   .appcontainer {
     position: relative;
     margin-top: 200px;
+  }
+
+  .cont-proto {
+    margin-top: 250px;
   }
 
 }
@@ -520,6 +553,10 @@ a.anim:hover {
     margin-bottom: 1.5rem;
   }
 
+  .cont-proto {
+    margin-top: 100px;
+  }
+
 
 }
 
@@ -545,6 +582,10 @@ a.anim:hover {
   .emoji-1 {
     width: 30px;
     height: 30px;
+  }
+
+  .cont-proto {
+    margin-top: 150px;
   }
 
   .soc-links {
