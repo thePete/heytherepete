@@ -134,7 +134,7 @@ a.btnnav {
   margin: 100px 0px 250px;
   cursor: pointer;
   font-family: 'Roboto Mono', monospace;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   letter-spacing: 0.25px;
   line-height: 1.4;
@@ -452,6 +452,10 @@ a.anim:hover {
   margin-bottom: 1.5rem;
 }
 
+.cont-proto-nav {
+  margin-top: 300px;
+}
+
 
 /* -------------------------- BOOTSTRAP EDITS ---------------------------- */
 
@@ -706,6 +710,10 @@ a.anim:hover {
 
   .col-lg-6 {
     margin-top:20px;
+  }
+
+  .cont-proto-nav {
+    margin-top: 75px;
   }
 
 }
